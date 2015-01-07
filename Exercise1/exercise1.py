@@ -1,5 +1,9 @@
 a = int(raw_input("Please enter the first integer:"))
+	while (not a.isdigit() ):
+		a = raw_input(“That’s not a number. Try again:”)
 b = int(raw_input("Please enter the second integer:"))
+	while (not b.isdigit() ):
+		b = raw_input(“That’s not a number. Try again:”)
 c = a + b
 d = a - b
 e = a * b
